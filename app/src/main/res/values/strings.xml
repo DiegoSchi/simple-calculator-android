@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Calculadora</string>
+
+    <string name="titulo_ActivityPrincipal"> Mi calculadora caca </string>
+    <string name="btnSuma"> + </string>
+    <string name="btnResta"> - </string>
+    <string name="btnMultiplicacion"> * </string>
+
+
+
+
+
+</resources>
