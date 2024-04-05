@@ -39,7 +39,13 @@ android {
 
 dependencies {
 
-    implementation 'androidx.core:core-ktx:1.8.0'
+    def activity_version = "1.8.2"
+    def fragment_version = "1.6.2"
+
+    //Fragment
+    implementation "androidx.fragment:fragment-ktx:$fragment_version"
+    //Activity
+    implementation "androidx.activity:activity-ktx:$activity_version"
     implementation 'androidx.appcompat:appcompat:1.6.1'
     implementation 'com.google.android.material:material:1.5.0'
     implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
